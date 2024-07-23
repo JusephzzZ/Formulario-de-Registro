@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pai.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 30%;
+    max-width: 300px;
+    text-align: center;
+}
+form {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 103%;
+    padding: 15px;
+    background-color: #007bffbe;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: cursive;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #007bff5d;
+}
